@@ -1,4 +1,4 @@
-FROM ubuntu:19.04
+FROM ubuntu:latest
 
 RUN apt update && apt-get install -y --no-install-recommends \
         clang-format python3 \
